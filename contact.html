@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nous contacter | BloomPetals</title>
+        <!--titre de la page-->
+        <link rel="stylesheet" type="text/css" href="" />
+        <!--relier la feuille css-->
+    </head>
+    <body>
+        <header>
+            <a href="index.html">Home</a>
+            <a href="entreprise.html">Entreprise</a>
+            <a href="realisations.html">Réalisations</a>
+            <a href="contact.html">Contact</a>
+            <!--liens pour naviguer dans le site-->
+        </header>
+            <h1>Nous contacter</h1>
+            <!--titre qui s'affiche-->
+            <article>
+                <h2>Formulaire de contact</h2>
+                <!--sous titre-->
+                <form>
+                    <div>
+                        <p><label for="civility">Civilité:</label></p>
+                        <select id="civility" name="civility">
+                            <option value="" selected disabled>--Choisir--</option>
+                            <option value="monsieur">M.</option>
+                            <option value="madame">Mme.</option>
+                        </select>
+                    </div>
+                    <!--liste déroulante-->
+                    <div>
+                        <p><label for="fname">Prénom:</label></p>
+                        <input type="text" id="fname" name="fname" autofocus>
+                    </div>
+                    <!--prénom-->
+                    <div>
+                        <p><label for="lname">Nom:</label></p>
+                        <input type="text" id="lname" name="lname">
+                    </div>
+                    <!--nom-->
+                    <div>
+                        <p><label for="adress">Adresse postale:</label></p>
+                        <textarea id="adress" name="adress" cols="33" rows="5"></textarea>
+                    </div>
+                    <!--adresse postale-->
+                    <div>
+                        <input type="checkbox" id="valid" required/>
+                        <label for="valid">Accepter la politique de confidentialité</label>
+                    </div>
+                    <!--checkbox politique confidentialité-->
+                    <br>
+                    <div>
+                        <button type="submit">Envoyer</button>                    
+                    </div>
+                    <!--bouton envoyer-->
+                </form>
+                <!--formulaire-->
+            </article>
